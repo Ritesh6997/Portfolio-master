@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  ArrowToTop,
+  // ArrowToTop,
   ContactHeader,
   ContactLink,
-  Copyright,
-  FooterArrowLine,
+  // Copyright,
+  // FooterArrowLine,
   FooterBigLink,
   FooterBigLinkContainer,
   FooterContact,
@@ -13,12 +13,12 @@ import {
   FooterSmallTitle,
   FooterSmallTitleWrapper,
   FooterSocials,
-  Small,
+  // Small,
   StyledFooter,
 } from "../styles/Footer.styled";
 import { animateScroll as scroll } from "react-scroll";
 
-import {SiLinkedin, SiGithub, SiMinutemailer, SiTwitter} from "react-icons/si"
+import {SiLinkedin, SiGithub, SiTwitter} from "react-icons/si"
 import {BsFillArrowUpSquareFill} from "react-icons/bs";
 
 const toTop = () => {
@@ -26,7 +26,7 @@ const toTop = () => {
 };
 
 const Footer = () => {
-  const year = new Date().getFullYear();
+  // const year = new Date().getFullYear();
   return (
     <StyledFooter id="contactme">
       <FooterSmallTitleWrapper>
@@ -91,7 +91,7 @@ const Footer = () => {
       <div onClick={toTop} style={{cursor: "pointer",
       display:"flex", justifyContent:"center", alignItems:"center", textAlign: "center", fontSize: "30px"}}>
       <BsFillArrowUpSquareFill style={{width: "40px",marginTop:"10px", cursor: "pointer", color: "white"}}/>
-      <a style={{fontSize: "20px"}} onClick={toTop}>Go to top</a>
+      <div style={{fontSize: "20px"}} onClick={toTop}>Go to top</div>
       </div>
     </StyledFooter>
   );

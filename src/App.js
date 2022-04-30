@@ -13,10 +13,10 @@ function App() {
   return (
     <Router>
       <ThemeProvider theme={theme}>
-        
           <GlobalStyles />
           <Navbar />
-          <Home />
+        <Home />
+        <ParallaxComponent/>
           <About />
           <Technologies />
           <Projects />

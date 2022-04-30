@@ -5,20 +5,17 @@ import reactjs from "../../assets/technologies/react.svg";
 import styledComponents from "../../assets/technologies/styled-components.svg";
 import tailwindcss from "../../assets/technologies/tailwindcss.svg";
 import bootstrap from "../../assets/technologies/bootstrap.svg";
-import sass from "../../assets/technologies/sass.svg";
 import npm from "../../assets/technologies/npm.svg";
-import laravel from "../../assets/technologies/laravel.svg";
 import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
 import figma from "../../assets/technologies/figma.svg";
-import adobexd from "../../assets/technologies/adobexd.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
-import {SiMongodb,SiRedis} from "react-icons/si";
-import {FcLinux} from "react-icons/fc";
 import Mongo from "../../assets/technologies/MongoImg.jpg";
 import Redis from "../../assets/technologies/redis.webp";
 import Redux from "../../assets/technologies/redux.png";
 import Linux from "../../assets/technologies/linux.jpg";
+import mysql from "../../assets/technologies/mysql.png";
+
 
 export const iconsData = [
   {
@@ -105,5 +102,23 @@ export const iconsData = [
     icon: vscode,
     name: "Visual Studio Code",
     href: "https://code.visualstudio.com/"
+  },
+  {
+    id: 16,
+    icon: bootstrap,
+    name: "Bootstrap",
+    href:"https://getbootstrap.com/"
+  },
+  {
+    id: 17,
+    icon: figma,
+    name: "Figma",
+    href:"https://www.figma.com/"
+  },
+  {
+    id: 18,
+    icon: mysql,
+    name: "Mysql",
+    href:"https://www.mysql.com/"
   },
 ];
