@@ -30,9 +30,9 @@ export const projectData = [
     id: 3,
     image: project3Laptop,
     transitionImage: project3Mobile,
-    title: "This is a personal project created for the implementation of Youtube app using Youtube-api",
-    codeLink: "https://github.com/RajP62/Youtube-Implementation",
-    liveLink: "https://youtubedashboard.netlify.app/",
+    title: "Cloned of YOOX Ecommerce web application that sell Desiner Clothing Products ",
+    codeLink: "https://github.com/Ritesh6997/YOOX_Clone_React",
+    liveLink: "https://yoox-clone-react-six.vercel.app/",
     techStack: ["HTML","CSS","Javascript"]
   },
 ]
