@@ -33,6 +33,6 @@ export const projectData = [
     title: "Cloned of YOOX Ecommerce web application that sell Desiner Clothing Products ",
     codeLink: "https://github.com/Ritesh6997/YOOX_Clone_React",
     liveLink: "https://yoox-clone-react-six.vercel.app/",
-    techStack: ["HTML","CSS","Javascript"]
+    techStack: ["React","Redux","Chakra UI","Javascript","MongoDb","Express.js","Node.js",]
   },
 ]
